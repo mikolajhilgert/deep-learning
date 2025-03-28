@@ -10,9 +10,9 @@ Instructions for Running in Inference Mode:
    - `best_model.pt` (pre-trained model weights)
 
 3. Set Inference Mode:
-   Open `code.ipynb` and set `ONLY_INFERENCE = True`.
-   This ensures that the code will skip data preview, training, and validation steps, 
-   and only execute the inference section to generate predictions for the test dataset.
+   Open `code.ipynb` and set the following:
+   - `ONLY_INFERENCE = True`: This ensures that the code will skip data preview, training, and validation steps, and only execute the inference section to generate predictions for the test dataset.
+   - `ROUND_PRED_TO_INTEGER = False`: If you want to round the predicted Rings to the nearest integer during inference, set this to `True`.
 
 4. Run the Notebook:
    Execute all cells in `code.ipynb` using Jupyter Notebook or convert it to a .py:
