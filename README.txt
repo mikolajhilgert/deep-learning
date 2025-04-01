@@ -3,8 +3,9 @@ Instructions for Running in Inference Mode:
 1. Prepare Files:
    Please ensure the following are in the workspace:
    - `code.ipynb` (main notebook)
-   - `data/test.csv` (test dataset)
-   - `best_model.pt` (pre-trained `best` model weights)
+   - `data/test.csv`  (test dataset)
+   - `data/train.csv` (train dataset)
+   - `best_model.pt`  (pre-trained `best` model weights)
 
 2. Install Requirements:
    To ensure reproducibility, please create and activate a new virtual environment and run the following command to install the required packages:
